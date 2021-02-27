@@ -17,6 +17,15 @@ body {
     font-family: 'Titillium Web', sans-serif;
 }
 
+.wrapper {
+    position: relative;
+    min-height: 100vh;
+}
+
+.wrap {
+    padding-bottom: 30vh;
+}
+
 .container {
     width: 94vw;
     max-width: 1100px;
@@ -72,7 +81,7 @@ nav {
 
 .nav-links li > a {
     color: var(--secondary);
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 .nav-links li >a:hover {
@@ -375,6 +384,10 @@ footer {
     background-color: var(--primary);
     padding-top: 70px;
     padding-bottom: 20px;
+    height: 30vh;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
 }
 
 .footer-content {
@@ -404,8 +417,18 @@ footer {
     color: var(--secondary);
 }
 
+.footer-content .quick-links a:hover {
+    color: white;
+    transition: .6s ease-in;
+}
+
 .footer-content .social-icons i {
     color: var(--secondary);
+}
+
+.footer-content .social-icons i:hover {
+    color: white;
+    transition: .6s ease-in;
 }
 
 .footer-content > .location > p {
@@ -414,6 +437,11 @@ footer {
 
 .footer-content .contact > a{
     color: var(--secondary);
+}
+
+.footer-content .contact >a:hover {
+    color: white;
+    transition: .6s ease-in;
 }
 
 .footer-content .contact-links {
@@ -425,14 +453,19 @@ footer {
     color: var(--secondary);
 }
 
+.footer-content .contact-links >a:hover {
+    color: white;
+    transition: .6s ease-in;
+}
+
 footer > .copy-right {
     display: flex;
     justify-content: center; 
     align-items: center;
-    margin-top: 1.5rem;
 }
 
 footer .copy-right > p {
     color: var(--links);
+    font-size: small;
 }
 /* End Footer */
