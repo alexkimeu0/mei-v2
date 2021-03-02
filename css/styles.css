@@ -658,5 +658,292 @@ footer .copy-right > p {
 }
 /* End Events */
 
+/* School */
+.school-header {
+    background: url('../images/schools.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #000;
+}
 
+.school-header > h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    color: var(--primary);
+}
+
+.school {
+    background: url('../images/background.png');
+    padding: 80px 0;
+}
+
+.school-container .school-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 3rem;
+}
+
+.school-info > img {
+    width: 400px;
+    height: auto;
+    margin-right: 2rem;
+}
+
+.school-info .description > h3 {
+    color: var(--title);
+}
+
+.school-courses > .heading {
+    margin-bottom: 1rem;
+}
+
+.school-courses .heading > h3 {
+    font-size: 30px;
+    color: var(--title);
+}
+
+.courses-info {
+    display: grid;
+    grid-gap: 1rem;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.courses-info > .card {
+    background-color: #fff;
+    padding: 1rem;
+    border-radius: .5rem;
+    box-shadow: 2px 14px 8px -1px rgb(235, 234, 234);
+}
+
+.courses-info > .card:hover {
+    box-shadow: 2px 14px 8px -5px rgb(202, 197, 197);
+    transition: .5s ease;
+}
+
+.courses-info .card > h4 {
+    color: var(--title);
+}
+
+.courses-info .card-body {
+    padding: 0;
+}
+/* End School */
+
+/* Careers */
+.careers-header {
+    background: url('../images/schools.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #000;
+}
+
+.careers-header > h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    color: var(--primary);
+}
+
+.careers {
+    background: url('../images/background.png');
+    padding: 80px 0;
+}
+
+.careers-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.careers-container > .card {
+    background-color: #fff;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border-radius: .3rem;
+    box-shadow: 2px 14px 8px -1px rgb(235, 234, 234);
+}
+
+.careers-container > .card:hover {
+    box-shadow: 2px 14px 8px -5px rgb(202, 197, 197);
+}
+
+.careers-container .card-heading {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.careers-container .card-heading h4 >a, 
+.careers-container .card-heading h4 >span {
+    color: var(--title);
+}
+
+.careers-container .card-heading h4 >span {
+    font-size: small;
+}
+
+.careers-container .card-heading h4 >a:hover {
+    color: var(--primary);
+    transition: .5s ease;
+}
+
+.careers-container .card-body {
+    padding: 0;
+}
+
+.btn-more {
+    color: var(--title);
+}
+/* End Careers */
+
+/* Career */
+.career-header {
+    background: url('../images/schools.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #000;
+}
+
+.career-header > h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    color: var(--primary);
+}
+
+.career {
+    background: url('../images/background.png');
+    padding: 80px 0;
+}
+
+.career .job > .card {
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: .3rem;
+}
+
+.career .job > .card .card-heading {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.career .card-heading > h3 {
+    color: var(--title);
+}
+
+.career .card-body {
+    padding: 0;
+}
+/* End Career */
+
+/* Post */
+.post-header {
+    background: url('../images/schools.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #000;
+}
+
+.post-header > h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    color: var(--primary);
+}
+
+.post {
+    background: url('../images/background.png');
+    padding: 80px 0;
+}
+
+.news-post .card {
+    padding: 2rem;
+    background-color: #fff;
+    border-radius: .3rem;
+}
+
+.news-post .card-heading {
+    margin-bottom: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.news-post .card-heading > h3 {
+    color: var(--title);
+}
+
+.news-post .card-body {
+    padding: 0;
+}
+/* End Post */
+
+/* Courses */
+.courses-header {
+    background: url('../images/schools.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #000;
+}
+
+.courses-header > h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    color: var(--primary);
+}
+
+.courses {
+    background: url('../images/background.png');
+    padding: 80px 0;
+}
+
+.courses-container {
+    display: grid;
+    grid-gap: 1rem;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.courses-container > .card {
+    background-color: #fff;
+    padding: 1rem;
+    border-radius: .5rem;
+    box-shadow: 2px 14px 8px -1px rgb(235, 234, 234);
+}
+
+.courses-container > .card:hover {
+    box-shadow: 2px 14px 8px -5px rgb(202, 197, 197);
+}
+
+.courses-container .card h4 {
+    color: var(--title);
+}
+
+.courses-container .card-body {
+    padding: 0;
+}
+/* End Courses */
 /******************** End pages ***************/
